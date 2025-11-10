@@ -141,6 +141,7 @@ def new_matrix():
     global transpindex
     transpindex=0
     myrow=generate_twelve_tone_series()
+    generatematrix(myrow)
 
 def new_matrix_norand():
     global labels
